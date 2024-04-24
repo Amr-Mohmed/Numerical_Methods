@@ -1,4 +1,7 @@
+// bisection-method.component.ts
 import { Component } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-bisection',
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./bisection.component.css']
 })
 export class BisectionComponent {
-
+ 
 }

@@ -10,11 +10,11 @@ import { FixedPointComponent } from './fixed-point/fixed-point.component';
 const routes: Routes = [
   {path:'' , redirectTo:'home',pathMatch:'full'},
   {path:'home', component:HomeComponent,pathMatch:'full'},
-  {path:'home', component:BisectionComponent,pathMatch:'full'},
-  {path:'home', component:SecantComponent,pathMatch:'full'},
-  {path:'home', component:FalsePositionComponent,pathMatch:'full'},
-  {path:'home', component:NewtonComponent,pathMatch:'full'},
-  {path:'home', component:FixedPointComponent,pathMatch:'full'},
+  {path:'bisection', component:BisectionComponent,pathMatch:'full'},
+  {path:'secant', component:SecantComponent,pathMatch:'full'},
+  {path:'false', component:FalsePositionComponent,pathMatch:'full'},
+  {path:'newton', component:NewtonComponent,pathMatch:'full'},
+  {path:'fixed', component:FixedPointComponent,pathMatch:'full'},
   {path:'**', component:HomeComponent}
 ];
 

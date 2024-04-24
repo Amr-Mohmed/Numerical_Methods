@@ -1,28 +1,18 @@
-.body{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 2vw;
-    margin-top: 20px;
-}
-
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    justify-content: left; 
 
     border-radius: 10px;
     padding: 30px;
 
     transition: transform 300ms;
     background-color: rgba(232, 236, 239, 0.684);
-    cursor: pointer;
+    /* cursor: pointer; */
 
-    /* background: #f7f7f7;
+    background: #f7f7f7;
     border: 0.6px solid #EBEBEB;
     box-shadow: 0px 5px 10px rgba(189, 189, 189, 0.13);
-    border-radius: 8px; */
+    border-radius: 8px;
 
-    text-decoration: none !important;
 }
 
 

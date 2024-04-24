@@ -9,6 +9,7 @@ import { FalsePositionComponent } from './false-position/false-position.componen
 import { NewtonComponent } from './newton/newton.component';
 import { FixedPointComponent } from './fixed-point/fixed-point.component';
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     FalsePositionComponent,
     NewtonComponent,
     FixedPointComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
